@@ -70,6 +70,15 @@ namespace WPF_Tutorial.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Assembly.
+        /// </summary>
+        public static string Assembly {
+            get {
+                return ResourceManager.GetString("Assembly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Refresh.
         /// </summary>
         public static string Refresh {
@@ -84,6 +93,15 @@ namespace WPF_Tutorial.Resources {
         public static string Reset {
             get {
                 return ResourceManager.GetString("Reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weld.
+        /// </summary>
+        public static string Weld {
+            get {
+                return ResourceManager.GetString("Weld", resourceCulture);
             }
         }
     }

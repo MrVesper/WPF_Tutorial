@@ -75,8 +75,8 @@
 
                 <!--Column 1-->
                 <StackPanel x:Name="Column1" Grid.Column="0" Margin="0 0 10 0">
-                    <CheckBox x:Name="Weld_CheckBox" Content="Weld" FontWeight="Bold"/>
-                    <CheckBox x:Name="Assembly_CheckBox" Content="Assembly" FontWeight="Bold"/>
+                    <CheckBox x:Name="Weld_CheckBox" Content="{x:Static resources:Resources.Weld}" FontWeight="Bold"/>
+                    <CheckBox x:Name="Assembly_CheckBox" Content="{x:Static resources:Resources.Assembly}" FontWeight="Bold"/>
                     <CheckBox x:Name="Plasma_CheckBox" Content="Plasma" FontWeight="Bold"/>
                     <CheckBox x:Name="Laser_CheckBox" Content="Laser" FontWeight="Bold"/>
                     <CheckBox x:Name="Purchase_CheckBox" Content="Purchase" FontWeight="Bold"/>
